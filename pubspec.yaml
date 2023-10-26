@@ -1,0 +1,67 @@
+name: company_app_demo
+description: company app demo
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.10.1
+  firebase_core: ^2.17.0
+  cloud_firestore: ^4.9.3
+  fluttertoast: ^8.2.2
+  firebase_analytics: ^10.5.1
+  google_sign_in: any
+  http: ^1.1.0
+  flutter_svg: ^2.0.7
+  sign_in_with_apple: ^5.0.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  audioplayers: ^5.2.0
+  flutter_tts: ^3.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/apple_icon.png
+    - assets/lock.png
+    - assets/google.png
+    - assets/user.PNG
+    - assets/exclamation.png
+    - assets/help.png
+    - assets/question.png
+    - assets/friend.png
+    - assets/connect.png
+    - assets/power.png
+    - assets/blog.png
+    - assets/null_heart.png
+    - assets/article.png
+    - assets/blog_ideas.png
+    - assets/media_player.png
+    - assets/about_us.png
+    - assets/like.png
+    - assets/title.png
+    - assets/song.png
+    - assets/image_to_text.png
+    - assets/reset.png
+    - assets/text_to_story.jpg
+    - assets/resume.png
+    - assets/pause.png
+    - assets/read_aloud.png
+    - assets/copy.png
+    - assets/template.png
